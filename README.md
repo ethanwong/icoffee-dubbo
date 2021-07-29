@@ -1,5 +1,7 @@
 # icoffee dubbo
 基于Dubbo的微服务架构实践
+ - 注册中心：Nacos
+ 
 ## Nacos安装
 从https://github.com/alibaba/nacos/releases下载最新的发布软件，解压运行。
 ~~~
