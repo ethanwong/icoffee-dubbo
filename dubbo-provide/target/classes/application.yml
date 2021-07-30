@@ -17,3 +17,7 @@ dubbo:
   protocol:
     name: dubbo
     port: 15511
+provide:
+    service:
+        version: 1.0.0
+        group: icoffee-dubbo-provide

@@ -9,7 +9,7 @@ import org.apache.dubbo.config.annotation.DubboService;
  * @Author huangyingfeng
  * @Create 2021-07-29 19:38
  */
-@DubboService
+@DubboService(version = "${provide.service.version}",group="${provide.service.group}")
 public class UserServiceImpl implements UserService {
     @Override
     public String getUser(String username) {
